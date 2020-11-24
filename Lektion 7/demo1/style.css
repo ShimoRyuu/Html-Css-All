@@ -1,0 +1,40 @@
+/* mobile-first */
+/* min-width (skalar upp) */
+
+/* grund design */
+
+html, body {
+    margin: 0;
+}
+
+.logo {
+    background-image: url(../images/mobile.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+h1 {
+    color: #666666;
+}
+
+@media (min-width: 500px) {
+    .logo {
+        background-image: url(../images/original.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+}
+
+
+
+
+
+
+/* desktop-first */
+/* max-width (max vara detta för att detta ska gälla) */

@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    /* width: 1120px; */
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url(../images/mobile.jpg);
+    }
+    .content {
+        display: block;
+        text-align: center;
+    }
+}

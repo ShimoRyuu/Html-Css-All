@@ -1,0 +1,59 @@
+/* mig egna styling */
+
+/* 
+    px      fasta pixel ex. 16px
+    pt      fast punkt ex. 16pt
+    rem     procentuell sats av font-size i html elementet normalt 16px
+    em      
+    %
+    vh
+    vw
+*/
+
+.logo-icon {
+    font-size: 2.1rem;
+}
+#working {
+    
+}
+#social {
+    margin-left: 35rem;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #ffffff;
+}
+.display-4 {
+    font-size: 2.5rem;
+}
+.jumbotron .lead {
+    display: none;
+}
+
+/* Small devices (landscape phones, 576px and up */
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem 0rem 1rem 0rem;
+        margin-bottom: 0rem;
+
+       
+    }
+    .display-4 {
+        font-size: 3.5rem;
+
+        
+    }
+    .jumbotron .lead {
+        display: block;
+    }
+}
+ /* Medium devices (tablets, 768 and up */
+ @media (min width: 768px) {}
+
+ /* Large devices (desktops, 992px and up */
+ @media (min width: 992px) {}
+
+ /* Extra larg devices (large laptops, 1200px and up */
+ @media (min width: 1200px) {}

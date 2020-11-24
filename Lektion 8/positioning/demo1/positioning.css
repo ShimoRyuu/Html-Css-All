@@ -1,0 +1,20 @@
+
+
+
+#child {
+    position: static;
+    position: relative;
+    position: absolute; 
+    /* absolut till en relativ position */
+    position: fixed;
+    /* fixad hur du än scrollar */
+    position: sticky;
+    /* rörlig men stannar inom objektet */
+    
+    z-index: 0;
+
+    top: 50px;
+    left: 50px;
+    /* right: 0; */
+    /* bottom: 0; */
+}
